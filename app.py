@@ -3,7 +3,7 @@ import tensorflow as tf
 import numpy as np
 
 # 1. Load your model
-model = tf.keras.models.load_model("mask_detector.keras")
+model = tf.keras.models.load_model("mask_model.keras")
 class_names = ['with_mask', 'without_mask']
 
 def predict(img):
