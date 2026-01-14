@@ -6,7 +6,7 @@ from PIL import Image
 IMG_SIZE = (224, 224)
 
 # Load model
-model = tf.keras.models.load_model("mask_detector_model")
+model = tf.keras.models.load_model("mask_model.keras")
 
 class_names = ["with_mask", "without_mask"]
 
