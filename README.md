@@ -1,13 +1,43 @@
----
-title: Face Mask Detection Model
-emoji: 🦀
-colorFrom: red
-colorTo: yellow
-sdk: gradio
-sdk_version: 6.3.0
-app_file: app.py
-pinned: false
-short_description: To detect whether the person in image wearing mask or not!
+# Face Mask Detection System 😷
+
+An end-to-end deep learning project that detects whether a person is wearing a face mask using transfer learning.  
+The model is deployed as an interactive web application using Gradio on Hugging Face Spaces.
+
 ---
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+## 🚀 Live Demo
+👉 https://huggingface.co/spaces/AdyKr/Face_Mask_Detection_Model
+
+---
+
+## 🧠 Model Details
+- Architecture: EfficientNet (Transfer Learning)
+- Task: Binary Image Classification
+- Classes:
+  - With Mask
+  - Without Mask
+
+---
+
+## ⚙️ Tech Stack
+- Python
+- TensorFlow / Keras
+- Scikit learn
+- Gradio
+- Hugging Face Spaces
+
+---
+
+## 📊 Evaluation Metrics
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- Confusion Matrix
+
+--
+
+## 🛠️ Run Locally
+```bash
+pip install -r requirements.txt
+python app.py
