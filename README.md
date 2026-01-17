@@ -8,6 +8,11 @@ A deep learning–based face mask detection system built with TensorFlow and Eff
 👉 https://huggingface.co/spaces/AdyKr/Face_Mask_Detection_Model
 
 ---
+## 🖥️ Demo Preview
+
+![Gradio UI](assets/ui.png)
+
+---
 
 ## 🧠 Model Details
 - Architecture: EfficientNet (Transfer Learning)
