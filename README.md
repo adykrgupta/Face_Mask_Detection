@@ -1,6 +1,7 @@
 # Face Mask Detection System 😷
 
 A deep learning–based face mask detection system built with TensorFlow and EfficientNet, featuring transfer learning, model evaluation, and deployment via Gradio on Hugging Face Spaces.
+
 ---
 
 ## 🚀 Live Demo
