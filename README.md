@@ -1,8 +1,6 @@
 # Face Mask Detection System 😷
 
-An end-to-end deep learning project that detects whether a person is wearing a face mask using transfer learning.  
-The model is deployed as an interactive web application using Gradio on Hugging Face Spaces.
-
+A deep learning–based face mask detection system built with TensorFlow and EfficientNet, featuring transfer learning, model evaluation, and deployment via Gradio on Hugging Face Spaces.
 ---
 
 ## 🚀 Live Demo
